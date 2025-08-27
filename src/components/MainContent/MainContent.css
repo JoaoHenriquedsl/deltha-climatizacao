@@ -15,18 +15,20 @@ main {
 
 .headline {
   color: #0d47a1;
-  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: #0d47a1;
   font-size: 3.2rem;
+  margin-bottom: 1rem;
   user-select: none;
   cursor: default;
 }
 
 .subHeadLine {
-  margin-top: 30px;
-  font-size: 1rem;
+  font-size: 1.125rem;
   color: #455164;
+  line-height: 1.75rem;
   font-weight: 100;
+  margin-bottom: 1rem;
 }
 
 .iceColor {
@@ -62,10 +64,6 @@ main {
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #0d47a1;
   }
-  .subHeadLine {
-    font-size: 1.25rem;
-    margin-top: 10px;
-  }
 
   .cta-container {
     flex-direction: column;
@@ -74,6 +72,5 @@ main {
   main {
     gap: 15px;
     max-width: 90%;
-    justify-content: space-evenly;
   }
 }

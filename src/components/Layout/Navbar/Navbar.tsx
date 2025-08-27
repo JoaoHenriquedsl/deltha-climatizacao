@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import "./Navbar.css";
-
+import Button from "../../UI/Button/Button";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -35,9 +35,9 @@ const Navbar = () => {
         </li>
       </ul>
       {/* Orçamento botão */}
-      <button className="cta">
-        <a href="#">Orçamento WhatsApp</a>
-      </button>
+      <Button className="cta" href="#">
+        Orçamento WhatsApp
+      </Button>
     </nav>
   );
 };

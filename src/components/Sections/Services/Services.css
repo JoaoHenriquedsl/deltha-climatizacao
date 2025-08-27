@@ -1,0 +1,49 @@
+.services {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  background-color: white;
+  padding: 5rem 0;
+}
+
+/* header */
+.services-header {
+  margin-bottom: 3 rem;
+}
+
+.services-title {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  color: #0d47a1;
+  font-weight: 700;
+}
+
+.services-subtitle {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  color: #4b5563;
+  margin-top: 0.5rem;
+  margin-bottom: 3rem;
+}
+
+/* cards */
+.services-cards {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 308px 308px 308px 308px;
+  gap: 20px;
+}
+
+@media screen and (max-width: 1366px) {
+  .services-cards {
+    grid-template-columns: 40% 40%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .services-cards {
+    grid-template-columns: 90%;
+
+  }
+}
+

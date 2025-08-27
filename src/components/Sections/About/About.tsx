@@ -1,3 +1,4 @@
+import Button from "../../UI/Button/Button";
 import "./About.css";
 
 const About = () => {
@@ -11,7 +12,7 @@ const About = () => {
           técnico, honesto e de confiança. Cada instalação é tratada com o
           máximo cuidado para garantir seu conforto e segurança.
         </p>
-        <button className="about-cta cta">Fale Comigo</button>
+        <Button className="about-cta cta" href="">Fale Comigo</Button>
       </div>
 
       <div className="about-right">

@@ -1,3 +1,4 @@
+import Button from "../../UI/Button/Button";
 import "./MainContent.css";
 
 const Main = () => {
@@ -17,8 +18,12 @@ const Main = () => {
         </p>
       </header>
       <div className="cta-container">
-        <button className="firstCta cta">Pedir Orçamento no WhatsApp</button>
-        <a className="secondCta">Conhecer Serviços</a>
+        <Button className="firstCta cta" href="">
+          Pedir Orçamento no WhatsApp
+        </Button>
+        <Button className="secondCta" href="">
+          Conhecer Serviços
+        </Button>
       </div>
     </main>
   );

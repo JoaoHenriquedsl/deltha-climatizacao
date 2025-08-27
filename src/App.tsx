@@ -1,11 +1,11 @@
 import { useState, useEffect } from "react";
 import "./App.css";
-import Differences from "./components/differences/Differences";
-import Main from "./components/MainContent/MainContent";
-import Navbar from "./components/Navbar/Navbar";
-import NavbarMobile from "./components/NavbarMobile/NavbarMobile";
-import Services from "./components/Services/Services";
-import About from "./components/About/About";
+import Differences from "./components/Sections/differences/Differences";
+import Main from "./components/Sections/MainContent/MainContent";
+import Navbar from "./components/Layout/Navbar/Navbar";
+import NavbarMobile from "./components/Layout/NavbarMobile/NavbarMobile";
+import Services from "./components/Sections/Services/Services";
+import About from "./components/Sections/About/About";
 
 function App() {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);

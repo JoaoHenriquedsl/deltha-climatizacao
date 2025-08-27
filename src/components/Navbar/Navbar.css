@@ -6,6 +6,7 @@ nav {
   align-items: center;
   padding: 10px 30px;
   transition: all 0.3s ease;
+  z-index: 999;
 }
 
 nav .logo {

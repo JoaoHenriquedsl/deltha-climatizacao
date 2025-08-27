@@ -73,6 +73,6 @@ main {
   main {
     gap: 15px;
     max-width: 90%;
-    justify-content: space-between;
+    justify-content: space-around;
   }
 }

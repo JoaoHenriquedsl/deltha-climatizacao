@@ -47,3 +47,10 @@
     text-align: center;
   }
 }
+
+@media screen and (max-width: 498px) {
+  .about-right .about-image {
+    height: 300px;
+    width: 300px;
+  }
+}

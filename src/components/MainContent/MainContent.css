@@ -63,6 +63,7 @@ main {
     -webkit-text-stroke-color: #0d47a1;
   }
   .subHeadLine {
+    font-size: 1.25rem;
     margin-top: 10px;
   }
 
@@ -73,6 +74,6 @@ main {
   main {
     gap: 15px;
     max-width: 90%;
-    justify-content: space-between;
+    justify-content: space-evenly;
   }
 }

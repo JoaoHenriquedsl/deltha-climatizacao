@@ -62,16 +62,17 @@ main {
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #0d47a1;
   }
-  .subHeadLine{
+  .subHeadLine {
     margin-top: 10px;
   }
 
-  .cta-container{
+  .cta-container {
     flex-direction: column;
   }
 
-  main{
+  main {
     gap: 15px;
     max-width: 90%;
+    justify-content: space-between;
   }
 }

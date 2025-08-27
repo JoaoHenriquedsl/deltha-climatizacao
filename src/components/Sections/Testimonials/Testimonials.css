@@ -1,0 +1,20 @@
+.testimonials-container{
+  text-align: center;
+  padding: 5rem 0;
+  background-color: white;
+}
+
+.testimonials{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.testimonials-container h1{
+  margin-bottom: 2rem;
+  color: #0D47A1;
+  font-weight: 700;
+  font-size: 2.2rem;
+  line-height: 2.5rem;
+}

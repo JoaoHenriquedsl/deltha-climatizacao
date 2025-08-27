@@ -5,6 +5,7 @@
   text-align: left;
   transition: all 0.3s ease;
   border-radius: 1rem;
+  background-color: #EFF6FF;
 }
 
 .testimonial-card p {

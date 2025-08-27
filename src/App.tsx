@@ -5,6 +5,7 @@ import Main from "./components/MainContent/MainContent";
 import Navbar from "./components/Navbar/Navbar";
 import NavbarMobile from "./components/NavbarMobile/NavbarMobile";
 import Services from "./components/Services/Services";
+import About from "./components/About/About";
 
 function App() {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
@@ -20,6 +21,7 @@ function App() {
       <Main />
       <Differences />
       <Services />
+      <About />
     </>
   );
 }

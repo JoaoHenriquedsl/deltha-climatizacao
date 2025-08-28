@@ -4,7 +4,6 @@ import { FiClock, FiCreditCard, FiShield } from "react-icons/fi";
 const Differences = () => {
   return (
     <section className="differences" id="differences">
-      // amazonq-ignore-next-line
       <div className="differences-itens">
         <div className="guarantee difference">
           <FiShield className="icon" />

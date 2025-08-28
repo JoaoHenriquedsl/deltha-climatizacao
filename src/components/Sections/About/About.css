@@ -33,6 +33,8 @@
 
 .about-right .about-image {
   background-color: #42a5f5;
+  background-image: url('../../../assets/Sem título.png');
+  background-position: center;
   height: 448px;
   width: 448px;
   border-radius: 1rem;

@@ -5,11 +5,11 @@ export default function Footer() {
     <footer>
       <h3>Deltha Climatização</h3>
       <div className="links">
-        <a href="https://wa.me/seuNumeroAqui" target="_blank">
+        <a href="https://wa.me/19971313824" target="_blank">
           WhatsApp
         </a>
         <span>•</span>
-        <a href="https://instagram.com/seuInstagram" target="_blank">
+        <a href="https://www.instagram.com/deltha.ar/" target="_blank">
           Instagram
         </a>
       </div>

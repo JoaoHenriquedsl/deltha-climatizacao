@@ -29,7 +29,7 @@ function App() {
       <Testimonials />
       <FAQSection />
       <AreReady />
-      <Footer/>
+      <Footer />
     </>
   );
 }

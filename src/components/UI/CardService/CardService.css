@@ -45,6 +45,9 @@
   transition: all 0.3s ease;
   border: none;
 }
+.service-card .card-button a{
+  color: #0d47a1;
+}
 
 .service-card .card-button:hover {
   background-color: #bad8ff;

@@ -3,7 +3,7 @@ import FAQ from "../../UI/FAQ/FAQ";
 
 const FAQSection = () => {
   return (
-    <section className="FAQSection">
+    <section className="FAQSection" id="FAQSection">
       <h1>Dúvidas Frequentes</h1>
       <FAQ title="Qual a capacidade (BTUs) ideal para meu ambiente?">
         O cálculo de BTUs depende de fatores como o tamanho do cômodo (m²),

@@ -6,7 +6,7 @@ import { GoShieldCheck } from "react-icons/go";
 import CardService from "../../UI/CardService/CardService";
 const Services = () => {
   return (
-    <section className="services">
+    <section className="services" id="services">
       <div className="services-header">
         <h1 className="services-title">Nossos Serviços de Climatização</h1>
         <p className="services-subtitle">
@@ -18,7 +18,7 @@ const Services = () => {
         <CardService
           icon={<FaWind />}
           title="Instalação Completa"
-          button="Quero Instalar"
+          buttonText="Quero Instalar"
         >
           Instalação de modelos Split e outros, com vácuo, teste de
           estanqueidade e orientação de uso para máxima eficiência.
@@ -27,15 +27,16 @@ const Services = () => {
         <CardService
           icon={<FiSun />}
           title="Limpeza e Higienização"
-          button="Agendar Limpeza"
+          buttonText="Agendar Limpeza"
         >
           Limpeza profunda de filtros e serpentinas para garantir um ar mais
+          puro, livre de ácaros e bactérias.
         </CardService>
 
         <CardService
           icon={<LuWrench />}
           title="Manutenção Corretiva"
-          button="Resolver um Problema"
+          buttonText="Resolver um Problema"
         >
           Diagnóstico e reparo rápido de defeitos, vazamentos de gás e problemas
           de performance do seu aparelho.
@@ -44,7 +45,7 @@ const Services = () => {
         <CardService
           icon={<GoShieldCheck />}
           title="Manutenção Preventiva"
-          button="Saiba Mais"
+          buttonText="Saiba Mais"
         >
           Manutenção periódica para aumentar a vida útil e a eficiência
           energética do seu ar-condicionado.

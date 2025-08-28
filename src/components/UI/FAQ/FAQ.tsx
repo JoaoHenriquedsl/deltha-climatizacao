@@ -1,6 +1,6 @@
 import { IoIosArrowUp } from "react-icons/io";
 import "./FAQ.css";
-import { useRef } from "react";
+import { useRef, useCallback } from "react";
 
 type Props = {
   children: React.ReactNode;
@@ -11,10 +11,10 @@ const FAQ = ({ children, title }: Props) => {
   const question = useRef<HTMLDivElement>(null);
   const arrow = useRef<HTMLDivElement>(null);
 
-  const toggleAnswer = () => {
+  const toggleAnswer = useCallback(() => {
     question.current?.classList.toggle("faq-hidden");
     arrow.current?.classList.toggle("arrow-rotate");
-  };
+  }, []);
 
   return (
     <div className="faq">

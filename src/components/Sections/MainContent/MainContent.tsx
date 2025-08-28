@@ -3,7 +3,7 @@ import "./MainContent.css";
 
 const Main = () => {
   return (
-    <main>
+    <main id="main">
       <header>
         <h1 className="headline">
           Ar-Condicionado em Americana?
@@ -18,10 +18,10 @@ const Main = () => {
         </p>
       </header>
       <div className="cta-container">
-        <Button className="firstCta cta" href="">
+        <Button className="firstCta cta" href="https://wa.me/19971313824">
           Pedir Orçamento no WhatsApp
         </Button>
-        <Button className="secondCta" href="">
+        <Button className="secondCta" href="#services">
           Conhecer Serviços
         </Button>
       </div>

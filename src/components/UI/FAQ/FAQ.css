@@ -1,0 +1,32 @@
+.question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+  gap: 0.5rem;
+  cursor: pointer;
+  font-weight: 600;
+  text-align: left;
+  color: #0d47a1;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.answer {
+  overflow: hidden;
+  text-align: left;
+  color: #4b5563;
+}
+
+.faq-hidden {
+  max-height: 0;
+  border-bottom: 2px solid #777f8a41;
+  border-radius: 20rem;
+}
+
+.arrow {
+  transition: 0.3s ease-in-out;
+}
+.arrow-rotate {
+  transform: rotateZ(-180deg);
+}

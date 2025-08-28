@@ -1,6 +1,6 @@
 import { FaBars } from "react-icons/fa";
 import "./NavbarMobile.css";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState, useCallback } from "react";
 import { IoClose } from "react-icons/io5";
 
 const NavbarMobile = () => {
@@ -10,19 +10,12 @@ const NavbarMobile = () => {
   const close = useRef<HTMLDivElement>(null);
   const navLinks = useRef<HTMLDivElement>(null)
 
-  const toggleMenu = () => {
-    if (isMenuOpen) {
-      menu.current?.classList.remove("hidden");
-      close.current?.classList.add("hidden");
-      navLinks.current?.classList.remove("nav-active");
-      setIsMenuOpen(false);
-    } else {
-      menu.current?.classList.add("hidden");
-      close.current?.classList.remove("hidden");
-      navLinks.current?.classList.add("nav-active");
-      setIsMenuOpen(true);
-    }
-  };
+  const toggleMenu = useCallback(() => {
+    menu.current?.classList.toggle("hidden");
+    close.current?.classList.toggle("hidden");
+    navLinks.current?.classList.toggle("nav-active");
+    setIsMenuOpen(!isMenuOpen);
+  }, [isMenuOpen]);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -33,6 +26,8 @@ const NavbarMobile = () => {
       }
     };
     window.addEventListener("scroll", handleScroll);
+
+    return ()=> window.removeEventListener("scroll", handleScroll);
   }, []);
 
   return (
@@ -55,13 +50,13 @@ const NavbarMobile = () => {
       <div ref={navLinks} className="nav-mobile">
         <ul className="nav-links-mobile">
           <li>
-            <a href="#">Home</a>
+            <a href="#main">Home</a>
           </li>
           <li>
-            <a href="#">Sobre</a>
+            <a href="#about">Sobre</a>
           </li>
           <li>
-            <a href="#">Contato</a>
+            <a href="#FAQSection">Dúvidas</a>
           </li>
         </ul>
         {/* Orçamento botão */}

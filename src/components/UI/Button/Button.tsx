@@ -1,7 +1,7 @@
 type Props = {
-  className: string
+  className?: string
   children: React.ReactNode,
-  href: string
+  href?: string
 }
 
 const Button = ({className, children, href}: Props) => {

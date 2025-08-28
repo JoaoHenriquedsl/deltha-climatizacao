@@ -9,6 +9,7 @@ import About from "./components/Sections/About/About";
 import Testimonials from "./components/Sections/Testimonials/Testimonials";
 import FAQSection from "./components/Sections/FAQSection/FAQSection";
 import AreReady from "./components/Sections/AreReady/AreReady";
+import Footer from "./components/Layout/Footer/Footer";
 
 function App() {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
@@ -28,6 +29,7 @@ function App() {
       <Testimonials />
       <FAQSection />
       <AreReady />
+      <Footer/>
     </>
   );
 }

@@ -10,7 +10,7 @@ import Testimonials from "./components/Sections/Testimonials/Testimonials";
 import FAQSection from "./components/Sections/FAQSection/FAQSection";
 import AreReady from "./components/Sections/AreReady/AreReady";
 import Footer from "./components/Layout/Footer/Footer";
-import { Analytics } from "@vercel/analytics/next";
+import { Analytics } from "@vercel/analytics/react";
 function App() {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 

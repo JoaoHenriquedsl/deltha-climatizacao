@@ -1,0 +1,28 @@
+footer {
+  width: 100%;
+  text-align: center;
+  background-color: #0d47a1;
+  color: white;
+  padding: 1rem 0;
+}
+
+footer h3 {
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  margin-bottom: 0.5rem;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+  padding: 0.5rem;
+}
+
+.links{
+  margin-bottom: 0.5rem;
+}
+
+.copyright{
+  font-size: 0.75rem;
+}

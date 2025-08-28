@@ -24,11 +24,13 @@ main {
 }
 
 .subHeadLine {
-  font-size: 1.125rem;
   color: #455164;
   line-height: 1.75rem;
-  font-weight: 100;
+  font-weight: 500;
   margin-bottom: 1rem;
+  font-size: 1.25rem;
+  max-width: 48rem;
+  margin: 0 auto;
 }
 
 .iceColor {

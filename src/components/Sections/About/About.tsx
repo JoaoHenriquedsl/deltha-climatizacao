@@ -12,14 +12,12 @@ const About = () => {
           técnico, honesto e de confiança. Cada instalação é tratada com o
           máximo cuidado para garantir seu conforto e segurança.
         </p>
-        <Button className="about-cta cta" href="https://wa.me/19971313824">Fale Comigo</Button>
-      </div>
-
-      <div className="about-right">
-        <div className="about-image"></div>
+        <Button className="about-cta cta" href="https://wa.me/19971313824">
+          Fale Comigo
+        </Button>
       </div>
     </section>
   );
-}
+};
 
 export default About;

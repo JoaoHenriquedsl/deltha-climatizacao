@@ -76,6 +76,7 @@ main {
   .subHeadLine{
     font-size: 1rem;
   }
+
   .cta-container {
     flex-direction: column;
   }
